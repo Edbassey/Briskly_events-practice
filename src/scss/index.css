@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  background-image: url(../image/heroImg.png);
+  background-position: center;
+  height: 90vh;
+  color: #fff;
+}
+header h1 {
+  font-size: 50px;
+  font-weight: 900;
+  padding-top: 13%;
+}
+
+.navbar li a {
+  color: #fff !important;
+}
+.navbar .bi-list {
+  color: white;
+}
+.navbar .sign_btn {
+  background-color: gold;
+  border: none;
+  color: black !important;
+  border-radius: 20px;
+}
+.navbar li a:hover {
+  color: gold !important;
+}
+
+.contact_us h2 {
+  font-weight: 900;
+  font-size: 40px;
+}
+/*# sourceMappingURL=index.css.map */
